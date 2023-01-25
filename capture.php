@@ -70,7 +70,7 @@
                 <div class="col-md-4 inputGroupContainer">
                 <div class="input-group">
                     <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-            <input name="quantity" placeholder="Enter Quantity" class="form-control"  type="text" required>
+            <input name="quantity" placeholder="Enter Quantity" class="form-control"  type="number" required>
                 </div>
             </div>
             </div>
@@ -92,7 +92,7 @@
                 <div class="col-md-4 inputGroupContainer">
                 <div class="input-group">
                     <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
-            <input name="itemPrice" placeholder="Enter Item Price" class="form-control"  type="text">
+            <input name="itemPrice" placeholder="Enter Item Price" class="form-control"  type="number">
                 </div>
             </div>
             </div>
