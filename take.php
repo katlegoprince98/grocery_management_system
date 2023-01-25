@@ -42,7 +42,7 @@
                     <div class="input-group">
                         <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
                         <select name="department" class="form-control selectpicker">
-                            <option value=" ">Select Department</option>
+                            <option value="" disabled >Select Department</option>
                             <option value="Downstairs">Downstairs</option>
                             <option value="Upstairs">Upstairs</option>
                             <option value="R&D">R&D</option>
