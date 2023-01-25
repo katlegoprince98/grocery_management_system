@@ -67,249 +67,40 @@
             <legend>Items taken</legend>
 
 
-            <!-- Cremora-->
             <div class="form-group">
-            <label class="col-md-4 control-label">Cremora</label>  
+                <label class="col-md-4 control-label">Select Item</label>  
                 <div class="col-md-4 inputGroupContainer">
-                <div class="input-group">
-                    <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-                    <select name="Cremora" class="form-control selectpicker">
-                        <option value="0">0</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                    </select>
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                        <select name="item" class="form-control selectpicker">
+                            <option value=" ">Select Item Type</option>
+                            <option value="Cremora">Cremora</option>
+                            <option value="Coffee">Coffee</option>
+                            <option value="Milk">Milk</option>
+                            <option value="Sugar">Sugar</option>
+                            <option value="Tomato">Tomato</option>
+                            <option value="Butter">Stork</option>
+                            <option value="Rooibos">Rooibos</option>
+                            <option value="Joko">Joko</option>
+                            <option value="Green Tea">Green Tea</option>
+                            <option value="Ricoffy">Ricoffy</option>
+                            <option value="Nescafe">Nescafe</option>
+                            <option value="Juice">Juice</option>
+                            <option value="Cold drink">Cold drink</option>
+                            <option value="Biscuit">Biscuit</option>
+
+                        </select>
+                    </div>
                 </div>
             </div>
-            </div>
 
-            <!-- Coffee-->
+            <!-- Text input-->
             <div class="form-group">
-            <label class="col-md-4 control-label">Coffee</label>  
+            <label class="col-md-4 control-label">Quantity</label>  
                 <div class="col-md-4 inputGroupContainer">
                 <div class="input-group">
                     <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-                    <select name="coffee" class="form-control selectpicker">
-                        <option value="0">0</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                    </select>
-                </div>
-            </div>
-            </div>
-
-            <!-- Milk-->
-            <div class="form-group">
-            <label class="col-md-4 control-label">Milk</label>  
-                <div class="col-md-4 inputGroupContainer">
-                <div class="input-group">
-                    <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-                    <select name="Employee" class="form-control selectpicker">
-                        <option value="0">0</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                    </select>
-                </div>
-            </div>
-            </div>
-
-            <!-- Sugar-->
-            <div class="form-group">
-            <label class="col-md-4 control-label">Sugar</label>  
-                <div class="col-md-4 inputGroupContainer">
-                <div class="input-group">
-                    <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-                    <select name="sugar" class="form-control selectpicker">
-                        <option value="0">0</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                    </select>
-                </div>
-            </div>
-            </div>
-
-            <!-- Tomato Sauce-->
-            <div class="form-group">
-            <label class="col-md-4 control-label">Tomato Sauce</label>  
-                <div class="col-md-4 inputGroupContainer">
-                <div class="input-group">
-                    <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-                    <select name="tomatosauce" class="form-control selectpicker">
-                        <option value="0">0</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                    </select>
-                </div>
-            </div>
-            </div>
-
-            <!-- Butter-->
-            <div class="form-group">
-            <label class="col-md-4 control-label">Butter</label>  
-                <div class="col-md-4 inputGroupContainer">
-                <div class="input-group">
-                    <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-                    <select name="Butter" class="form-control selectpicker">
-                        <option value="0">0</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                    </select>
-                </div>
-            </div>
-            </div>
-
-            <!-- Rooibos-->
-            <div class="form-group">
-            <label class="col-md-4 control-label">Rooibos</label>  
-                <div class="col-md-4 inputGroupContainer">
-                <div class="input-group">
-                    <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-                    <select name="Rooibos" class="form-control selectpicker">
-                        <option value="0">0</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                    </select>
-                </div>
-            </div>
-            </div>
-
-            <!-- Joko-->
-            <div class="form-group">
-            <label class="col-md-4 control-label">Joko</label>  
-                <div class="col-md-4 inputGroupContainer">
-                <div class="input-group">
-                    <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-                    <select name="Joko" class="form-control selectpicker">
-                        <option value="0">0</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                    </select>
-                </div>
-            </div>
-            </div>
-
-            <!-- Ricoffy-->
-            <div class="form-group">
-            <label class="col-md-4 control-label">Ricoffy</label>  
-                <div class="col-md-4 inputGroupContainer">
-                <div class="input-group">
-                    <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-                    <select name="Ricoffy" class="form-control selectpicker">
-                        <option value="0">0</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                    </select>
-                </div>
-            </div>
-            </div>
-
-            <!-- Nescafe-->
-            <div class="form-group">
-            <label class="col-md-4 control-label">Nescafe</label>  
-                <div class="col-md-4 inputGroupContainer">
-                <div class="input-group">
-                    <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-                    <select name="Employee" class="form-control selectpicker">
-                        <option value="0">0</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                    </select>
-                </div>
-            </div>
-            </div>
-
-            <!-- Juice-->
-            <div class="form-group">
-            <label class="col-md-4 control-label">Juice</label>  
-                <div class="col-md-4 inputGroupContainer">
-                <div class="input-group">
-                    <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-                    <select name="Juice" class="form-control selectpicker">
-                        <option value="0">0</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                    </select>
-                </div>
-            </div>
-            </div>
-
-            <!-- Coldrink-->
-            <div class="form-group">
-            <label class="col-md-4 control-label">Cold drink</label>  
-                <div class="col-md-4 inputGroupContainer">
-                <div class="input-group">
-                    <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-                    <select name="Coldrink" class="form-control selectpicker">
-                        <option value="0">0</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                    </select>
-                </div>
-            </div>
-            </div>
-
-            <!-- Biscuit-->
-            <div class="form-group">
-            <label class="col-md-4 control-label">Biscuit</label>  
-                <div class="col-md-4 inputGroupContainer">
-                <div class="input-group">
-                    <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-                    <select name="Biscuit" class="form-control selectpicker">
-                        <option value="0">0</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                    </select>
+            <input name="quantity" placeholder="Enter Quantity" class="form-control"  type="number" required>
                 </div>
             </div>
             </div>
