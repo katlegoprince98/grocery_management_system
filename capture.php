@@ -48,14 +48,14 @@
                             <option value="Milk">Milk</option>
                             <option value="Sugar">Sugar</option>
                             <option value="Tomato">Tomato</option>
-                            <option value="Stork">Stork</option>
+                            <option value="Butter">Stork</option>
                             <option value="Rooibos">Rooibos</option>
                             <option value="Joko">Joko</option>
                             <option value="Green Tea">Green Tea</option>
                             <option value="Ricoffy">Ricoffy</option>
                             <option value="Nescafe">Nescafe</option>
                             <option value="Juice">Juice</option>
-                            <option value="Coldrink">Coldrink</option>
+                            <option value="Cold drink">Cold drink</option>
                             <option value="Biscuit">Biscuit</option>
 
                         </select>
