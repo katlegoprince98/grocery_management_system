@@ -1,26 +1,29 @@
 <?php
 ////////////////////////////////////////////////////////////////////////////////
-/*
-session_start();
-if (isset($_SESSION['user_name'])) 
-{
-    $user = $_SESSION['user_name'];
-}
-else
-{
-    ?>
-        <script>
-        window.alert("Invalid Session Token!");
-        window.location = "https://admin.vumeladocs.co.za/index.php?logout";
-        </script>
-    <?php
-}
-*/
+
 ///////////////////////////////////////////////////////////////////////////////
 
 
 $title = 'Title';
 $pageName = 'Page Name';
+include('control.php');
+$cont = '';
+
+$results = pullData();
+  if($results->num_rows > 0){
+    while($row = mysqli_fetch_assoc($results)){
+       $cont .= '
+          
+       <tr>
+          <td>'.$row["groID"].'</td>
+          <td>'.$row["groItem"].'</td>
+          <td>'.$row["grocShop"].'</td>
+          <td>'.$row["groQuantity"].'</td>
+        </tr>
+       ';
+    }
+  }
+
 $content = 
 '
 <div class="row">
@@ -38,12 +41,7 @@ $content =
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>2</td>
-                        <td>Milk</td>
-                        <td>Checkers</td>
-                        <td>6</td>
-                    </tr>
+                   '.$cont.'
                 </tbody>
             </table>
         </div>

@@ -44,4 +44,16 @@
        
     }
 
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////
+    //pull data
+    function pullData(){
+        include("config.php");
+
+        $pull = "SELECT * FROM groceries";
+
+        return mysqli_query($conn, $pull);
+
+        
+    }
+
 ?>
